@@ -532,9 +532,12 @@ table {
 html, body { 
 	font-family: 'PT Sans', sans-serif;
 }
+*:focus {
+	outline: none;
+}
 #container {
 	width: 900px;
-	margin: 100px auto 0 auto;
+	margin: 80px auto 0 auto;
 }
 #main-header {
 	height: 120px;
@@ -546,7 +549,7 @@ html, body {
 	float: left;
 	width: 100px;
 	height: 100px;
-	padding: 10px;
+	padding: 10px 0;
 	text-align: center;
 	color: black;
 	text-decoration: none;
@@ -575,7 +578,6 @@ html, body {
 
 #main-section {
 	height: 400px;
-
 }
 #main-quotation {
 	font-size: 14px;
@@ -599,16 +601,29 @@ html, body {
 	left: 0;
 }
 #footer-image-2 {
-	padding-top:10px;
-	left: 180px;
+	padding-top:40px;
+	left: 110px;
 }
 #footer-image-3 {
 	padding-top:10px;
-	left: 360px;
+	left: 180px;
 }
 #footer-image-4 {
+	padding-top:40px;
+	left: 300px;
+}
+#footer-image-5 {
+	padding-top:10px;
+	left: 360px;
+}
+#footer-image-6 {
+	padding-top:40px;
+	left: 480px;
+}
+#footer-image-7 {
 	right: 0;
 }
+
 #team-picture {
 	float: left;
 }
@@ -617,4 +632,10 @@ html, body {
 	width: 300px;
 	background:rgb(229,229,229);
 	height: 400px;
+}
+#logo-container {
+	height: 82px;
+	background:white;
+	overflow: visible;
+	margin-bottom: 20px;
 }

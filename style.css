@@ -530,7 +530,7 @@ table {
 	green = rgba(43,144,53,0);
 */
 html, body { 
-
+	font-family: 'PT Sans', sans-serif;
 }
 #container {
 	width: 900px;
@@ -538,7 +538,6 @@ html, body {
 }
 #main-header {
 	height: 120px;
-	background:red;
 }
 #main-nav {
 
@@ -548,20 +547,74 @@ html, body {
 	width: 100px;
 	height: 100px;
 	padding: 10px;
+	text-align: center;
+	color: black;
+	text-decoration: none;
+	font-size: 14px;
 }
-.nav-button:hover {
-	background:black;
+.button-image {
+	height: 70px;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
+#team-image {
+	background-image: url('img/icons/team.png');
+}
+#news-image {
+	background-image: url('img/icons/news.png');
+}
+#mission-image {
+	background-image: url('img/icons/mission.png');
+}
+#blog-image {
+	background-image: url('img/icons/blog.png');
+}
+#sr-image {
+	background-image: url('img/icons/SR.png');
+}
+
 #main-section {
 	height: 400px;
-	background:blue;
+
 }
 #main-quotation {
+	font-size: 14px;
 	float: right;
-	width:300px;
+	width:240px;
+	padding: 10px 30px;
+	text-align: center;
 }
 #main-footer {
 	height: 100px;
-	background: green;
+	padding: 10px;
+	position: relative;
 	
+}
+.footer-image {
+	display: inline-block;
+	position: absolute;
+}
+#footer-image-1 {
+	padding-top:10px;
+	left: 0;
+}
+#footer-image-2 {
+	padding-top:10px;
+	left: 180px;
+}
+#footer-image-3 {
+	padding-top:10px;
+	left: 360px;
+}
+#footer-image-4 {
+	right: 0;
+}
+#team-picture {
+	float: left;
+}
+#main-sidebar {
+	float: left;
+	width: 300px;
+	background:rgb(229,229,229);
+	height: 400px;
 }

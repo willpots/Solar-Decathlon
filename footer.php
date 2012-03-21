@@ -1,18 +1,12 @@
 
 		</div><!-- #main-section -->
 		<div id="main-footer">
-		
+			<div id="footer-image-1" class="footer-image"><img src="<?php bloginfo("stylesheet_directory"); ?>/img/schematics/shelter.png" alt="Shelter" title="Shelter"/></div>
+			<div id="footer-image-2" class="footer-image"><img src="<?php bloginfo("stylesheet_directory"); ?>/img/schematics/house.png" alt="House" title="House"/></div>
+			<div id="footer-image-3" class="footer-image"><img src="<?php bloginfo("stylesheet_directory"); ?>/img/schematics/home.png" alt="Home" title="Home"/></div>
+			<div id="footer-image-4" class="footer-image"><img src="<?php bloginfo("stylesheet_directory"); ?>/img/schematics/community.png" alt="Community" title="Community"/></div>
 		</div><!-- #main-footer -->
 	</div><!-- #container -->
-	<script type="text/javascript">	
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-20023247-14']);
-		_gaq.push(['_trackPageview']);
-		(function() {
-		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
-	</script>
+	<?php analytics(); ?>
 </body>
 </html>

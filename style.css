@@ -579,7 +579,7 @@ html, body {
 	background-image: url('img/icons/donate.png');
 }
 #main-section {
-	height: 400px;
+	min-height: 400px;
 }
 #main-quotation {
 	font-size: 14px;

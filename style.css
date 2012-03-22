@@ -537,7 +537,7 @@ html, body {
 }
 #container {
 	width: 900px;
-	margin: 80px auto 0 auto;
+	margin: 0 auto 0 auto;
 }
 #main-header {
 	height: 120px;
@@ -547,7 +547,7 @@ html, body {
 }
 .nav-button {
 	float: left;
-	width: 100px;
+	width: 80px;
 	height: 100px;
 	padding: 10px 0;
 	text-align: center;
@@ -575,7 +575,9 @@ html, body {
 #sr-image {
 	background-image: url('img/icons/SR.png');
 }
-
+#donate-image {
+	background-image: url('img/icons/donate.png');
+}
 #main-section {
 	height: 400px;
 }
@@ -626,9 +628,25 @@ html, body {
 
 #team-picture {
 	float: left;
+	position: relative;
+}
+#team-picture-image {
+	position: absolute;
+}
+#team-picture-tagline {
+	position: absolute;
+	padding: 10px;
+	color:white;
+	text-align: right;
+	background:rgba(0,0,0,.7);
+	width: 450px;
+	top:30px;
+	font-size: 14px;
 }
 #main-sidebar {
-	float: left;
+	float: right;
+	position: relative;
+	right:0;
 	width: 300px;
 	background:rgb(229,229,229);
 	height: 400px;

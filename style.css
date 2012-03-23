@@ -584,6 +584,12 @@ html, body {
 #donate-image {
 	background-image: url('img/icons/donate.png');
 }
+#home-image {
+	background-image: url('img/icons/home.png');
+}
+#design-image {
+	background-image: url('img/icons/design.png');
+}
 #main-section {
 	min-height: 400px;
 }
@@ -674,7 +680,6 @@ html, body {
 	width: 300px;
 	background:rgb(229,229,229);
 	height: 400px;
-	overflow-y: scroll;
 }
 #logo-container {
 	height: 82px;
@@ -684,10 +689,12 @@ html, body {
 }
 /* Sidebar */ 
 #news-titles {
-
+	padding: 5px;
 }
 #news-titles h2 {
 	margin:5px;
+	overflow-y: auto;
+	overflow-x: hidden;
 }
 .news-title {
 	margin:5px 5px 10px 5px;

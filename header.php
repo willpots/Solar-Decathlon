@@ -28,6 +28,10 @@
 				</div>
 			</div>
 			<div id="main-nav">
+				<a id="blog-button" class="nav-button" href="/home">
+					<div id="home-image" class="button-image"></div>
+					<div class="button-text">Home</div>
+				</a>
 				<a id="team-button" class="nav-button" href="/team">
 					<div id="team-image" class="button-image"></div>
 					<div class="button-text">Team</div>
@@ -40,15 +44,11 @@
 					<div id="mission-image" class="button-image"></div>
 					<div class="button-text">Mission</div>
 				</a>
-				<a id="blog-button" class="nav-button" href="/blog">
-					<div id="blog-image" class="button-image"></div>
-					<div class="button-text">Blog</div>
-				</a>
 				<a id="sr-button" class="nav-button" style="padding:10px 20px 10px 20px;width:100px;" href="http://solardecathlon.middlebury.edu">
 					<div id="sr-image" class="button-image" ></div>
 					<div class="button-text">Our 2011 Home</div>
 				</a>
-				<a id="donate-button" class="nav-button" href="">
+				<a id="donate-button" class="nav-button" href="http://go.middlebury.edu/givesd2013">
 					<div id="donate-image" class="button-image" ></div>
 					<div class="button-text">Donate Now</div>
 				</a>

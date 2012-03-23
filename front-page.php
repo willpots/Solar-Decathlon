@@ -2,7 +2,7 @@
 
 <div id="team-picture">
 	<img src="<?php bloginfo("stylesheet_directory"); ?>/img/TeamPhoto.JPG" id="team-picture-image" alt="Team Middlebury 2013" title="Team Middlebury 2013" draggable="false">
-	<div id="team-picture-tagline">Middlebury College returns to the US Department of Energy Solar Decathlon. Meet the new team!</div>
+	<a href="/team" style="text-decoration:none"><div id="team-picture-tagline">Middlebury College returns to the US Department of Energy Solar Decathlon. Meet the new team!</div></a>
 </div>
 <div id="main-sidebar">
 	<div id="logo-container">

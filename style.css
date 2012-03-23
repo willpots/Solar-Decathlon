@@ -529,6 +529,12 @@ table {
 	gray = rgba(229,229,229,0);
 	green = rgba(43,144,53,0);
 */
+a {
+	color: rgba(43,144,53,1);
+}
+a:hover {
+	color: rgba(63,164,73,1);
+}
 html, body { 
 	font-family: 'PT Sans', sans-serif;
 }
@@ -668,6 +674,7 @@ html, body {
 	width: 300px;
 	background:rgb(229,229,229);
 	height: 400px;
+	overflow-y: scroll;
 }
 #logo-container {
 	height: 82px;
@@ -675,7 +682,20 @@ html, body {
 	overflow: visible;
 	margin-bottom: 20px;
 }
+/* Sidebar */ 
+#news-titles {
 
+}
+#news-titles h2 {
+	margin:5px;
+}
+.news-title {
+	margin:5px 5px 10px 5px;
+}
+.the-title {
+	margin: 0;
+	padding: 0;
+}
 /* Main Content */
 #content {
 	padding:10px 50px;
@@ -683,4 +703,12 @@ html, body {
 	font-weight: lighter;
 	line-height: 25px;
 	
+}
+
+/* The Loop */
+
+.post {
+	background: #efefef;
+	padding: 10px;
+	margin:10px;
 }

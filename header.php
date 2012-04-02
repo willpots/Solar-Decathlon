@@ -21,7 +21,7 @@
 		<div id="main-header">
 			<div id="main-quotation">
 				<div id="quote-body">
-				"How many connections we can enable is a much more interesting question than how many kilawatt-hours we can generate."
+				"How many connections we can enable is a much more interesting question than how many kilowatt-hours we can generate."
 				</div>
 				<div id="quote-author">
 				&nbsp;&nbsp;- Bill McKibben

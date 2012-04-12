@@ -1,7 +1,7 @@
 /*
 Theme Name: Solar Decathlon
 Theme URI: http://middsd.com/
-Description: The theme of the Middlebury Solar Decathlon.
+Description: The theme of the Middlebury Solar Decathlon. This is our insite theme that contains some hard coded resources and some database reliant features.
 Author: Will Potter, Teddy Knox, Sean Willerford
 Author URI: www.middsd.com
 Version: 1.0
@@ -690,6 +690,9 @@ html, body {
 /* Sidebar */ 
 #news-titles {
 	padding: 5px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	height: 280px;
 }
 #news-titles h2 {
 	margin:5px;
@@ -718,4 +721,12 @@ html, body {
 	background: #efefef;
 	padding: 10px;
 	margin:10px;
+}
+img.alignleft {
+	float: left;
+	margin: 0 10px 5px 0;
+}
+img.alignright {
+	float: right;
+	margin: 0 0 5px 10px;
 }

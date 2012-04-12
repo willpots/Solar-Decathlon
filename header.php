@@ -14,7 +14,7 @@
 	<script type="text/javascript">
 	
 	</script>
-	
+	<?php wp_head(); ?> 
 </head>
 <body>
 	<div id="container">
@@ -44,11 +44,11 @@
 					<div id="mission-image" class="button-image"></div>
 					<div class="button-text">Mission</div>
 				</a>
-				<a id="sr-button" class="nav-button" style="padding:10px 20px 10px 20px;width:100px;" href="http://solardecathlon.middlebury.edu">
+				<a id="sr-button" target="_blank" class="nav-button" style="padding:10px 20px 10px 20px;width:100px;" href="http://solardecathlon.middlebury.edu">
 					<div id="sr-image" class="button-image" ></div>
 					<div class="button-text">Our 2011 Home</div>
 				</a>
-				<a id="donate-button" class="nav-button" href="http://go.middlebury.edu/givesd2013">
+				<a id="donate-button" target="_blank" class="nav-button" href="http://go.middlebury.edu/givesd2013">
 					<div id="donate-image" class="button-image" ></div>
 					<div class="button-text">Donate Now</div>
 				</a>

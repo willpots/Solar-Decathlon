@@ -1,6 +1,8 @@
 <?php
 
-function analytics() { ?>
+function analytics() { 
+
+?>
 	<script type="text/javascript">	
 		var _gaq = _gaq || [];
 		_gaq.push(['_setAccount', 'UA-20023247-14']);
@@ -11,7 +13,8 @@ function analytics() { ?>
 		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		})();
 	</script>
-<?php }
+<?php 
+}
 
 
 
